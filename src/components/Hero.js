@@ -4,7 +4,7 @@ const Hero = () => {
   const handleDownloadCV = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/assets/SanaFatima_Senior_Full_Stack_Developer.pdf';
+    link.href = `${process.env.PUBLIC_URL}/assets/SanaFatima_Senior_Full_Stack_Developer.pdf`;
     link.download = 'SanaFatima_Senior_Full_Stack_Developer.pdf';
     link.target = '_blank';
 
@@ -56,8 +56,8 @@ const Hero = () => {
             <div className="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto mb-6 shadow-2xl animate-glow relative overflow-hidden border-4 border-gradient-to-br from-primary-400 to-accent-500">
               <div className="absolute inset-0 bg-gradient-to-br from-primary-400/20 to-accent-500/20 rounded-full animate-pulse"></div>
               <img
-                src="/assets/Sana_Profile.png"
-                alt="Sana Fatima - Senior Frontend Developer"
+                src={`${process.env.PUBLIC_URL}/assets/Sana_Profile.png`}
+                alt="Sana Fatima - MERN Stack Developer"
                 className="w-full h-full object-cover rounded-full relative z-10"
                 onError={(e) => {
                   e.target.style.display = 'none';
