@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sana-portfolio/static/css/main.7bc6169e.css",
-    "main.js": "/sana-portfolio/static/js/main.ba96da14.js",
+    "main.js": "/sana-portfolio/static/js/main.de0b1c1f.js",
     "index.html": "/sana-portfolio/index.html",
     "main.7bc6169e.css.map": "/sana-portfolio/static/css/main.7bc6169e.css.map",
-    "main.ba96da14.js.map": "/sana-portfolio/static/js/main.ba96da14.js.map"
+    "main.de0b1c1f.js.map": "/sana-portfolio/static/js/main.de0b1c1f.js.map"
   },
   "entrypoints": [
     "static/css/main.7bc6169e.css",
-    "static/js/main.ba96da14.js"
+    "static/js/main.de0b1c1f.js"
   ]
 }
