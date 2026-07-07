@@ -4,8 +4,8 @@ const Hero = () => {
   const handleDownloadCV = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = `${process.env.PUBLIC_URL}/assets/SanaFatima_Senior_Full_Stack_Developer.pdf`;
-    link.download = 'SanaFatima_Senior_Full_Stack_Developer.pdf';
+    link.href = `${process.env.PUBLIC_URL}/assets/FullStack-Developer_SanaFatima.pdf`;
+    link.download = 'FullStack-Developer_SanaFatima.pdf';
     link.target = '_blank';
 
     // Append to body, click, and remove
